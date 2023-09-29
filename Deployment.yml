@@ -16,7 +16,7 @@ spec:
   spec:
     containers:
     - name: contactbackendcontainer
-      image: vinayakraut/contact_backend_app
+      image: vinayakraut/contact_backend_app:contact_backend_app 
       ports:
       - containerPort: 8080
 ---
